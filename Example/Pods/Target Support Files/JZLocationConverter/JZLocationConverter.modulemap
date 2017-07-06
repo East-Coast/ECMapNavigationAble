@@ -1,0 +1,6 @@
+framework module JZLocationConverter {
+  umbrella header "JZLocationConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}

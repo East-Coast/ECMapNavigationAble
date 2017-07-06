@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D6358CA03D103372312736F7E26421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8786097E783CC82BC0F0CDE584456B /* Foundation.framework */; };
+		352475FC4A2E63D5E93800F6F7836AB3 /* ECMapNavigationAble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEC22C8AA00D357D5ABCD9E10147873 /* ECMapNavigationAble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381EDAB1E471A797C133D5DCC0CED09C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8786097E783CC82BC0F0CDE584456B /* Foundation.framework */; };
+		39EF66AC564C00EDF0154747489851F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5627FAE38535F63CEEAE6F4D925771C /* UIKit.framework */; };
+		4F84104F724F55F0B694A8FB77DB299B /* JZLocationConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F43F0A38C93CC934FC67201E28889 /* JZLocationConverter-dummy.m */; };
+		5E2C5FD47155A9C32EDABA0B4D5C160D /* JZLocationConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35851BB4F5E229B70E9B9A2D1D32263 /* JZLocationConverter.framework */; };
+		6376D687D42D8A226B932E0FF428D9A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8786097E783CC82BC0F0CDE584456B /* Foundation.framework */; };
+		998601BE1B8C69E3CDA6CDF3E56741A2 /* Pods-ECMapNavigationAble_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE49CDAE795D4148A380D474206AECA /* Pods-ECMapNavigationAble_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99C56D0497CAE6B8DFA1C5DD12E1FC07 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DA7E12A94E71FA2BFD105D2B3D6887 /* CoreLocation.framework */; };
+		9CF7D525B6D691199D34C8C1FC5A9456 /* ECMapNavigationAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F4420CB612BB8467F3F43DF13B7A68 /* ECMapNavigationAble.swift */; };
+		9FEAD85AABA782396CB4E00B0650BA51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8786097E783CC82BC0F0CDE584456B /* Foundation.framework */; };
+		BE4F64075AA808B83DB9BA13F26B137D /* JZLocationConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3873DC637F4BF0B0FE9E501EC1394 /* JZLocationConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC46600596BECBBAB47B253D68A82A14 /* ECMapNavigationAble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2935B3B65CF316E3BF1911CDB120C3 /* ECMapNavigationAble-dummy.m */; };
+		CF31FBAAC75218F639F350865C596119 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA67896DBC92A6E8AF3215A386A0BA7 /* JZLocationConverter.m */; };
+		D649A9A61015030256605D581D883319 /* Pods-ECMapNavigationAble_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D74F6D7D6868B43ED25DD7DBEAFD5E7 /* Pods-ECMapNavigationAble_Tests-dummy.m */; };
+		E29965916380593F22690F6466488550 /* JZLocationConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8318CE8F2972E6E657CAEE164EAD2A /* JZLocationConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67C528F5F14C065835D34CA386FC662 /* Pods-ECMapNavigationAble_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58975D47B01681FBB1CEF6EAF26B93D2 /* Pods-ECMapNavigationAble_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD594CAF16DC11A78C1AFA5C3E3A07F5 /* Pods-ECMapNavigationAble_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2727AC52B2C394A4F457D4BF6C1B3DCB /* Pods-ECMapNavigationAble_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D25ADE887A9304AB8E4CA053762185FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EC798F8F621D1929058A6F0B327099;
+			remoteInfo = ECMapNavigationAble;
+		};
+		EA20A7AE451D32400226A111CC80FDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E516E61D1B7FE78466FB43293C6F0D58;
+			remoteInfo = JZLocationConverter;
+		};
+		EC8519DF2AAFA8E73ED6F1D64D0B00C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E516E61D1B7FE78466FB43293C6F0D58;
+			remoteInfo = JZLocationConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867CAFD9E581EFF93AEDFBA2180027B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13108EA485CE3F9A3195093797341D58 /* JZLocationConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZLocationConverter.xcconfig; sourceTree = "<group>"; };
+		1BE49CDAE795D4148A380D474206AECA /* Pods-ECMapNavigationAble_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECMapNavigationAble_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2663556A195D5A15975A6428894C2714 /* Pods-ECMapNavigationAble_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMapNavigationAble_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2727AC52B2C394A4F457D4BF6C1B3DCB /* Pods-ECMapNavigationAble_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECMapNavigationAble_Example-dummy.m"; sourceTree = "<group>"; };
+		2885C365EAA31BBE013BCCEB2FEA632D /* Pods-ECMapNavigationAble_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMapNavigationAble_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28F4420CB612BB8467F3F43DF13B7A68 /* ECMapNavigationAble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ECMapNavigationAble.swift; sourceTree = "<group>"; };
+		2A2935B3B65CF316E3BF1911CDB120C3 /* ECMapNavigationAble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECMapNavigationAble-dummy.m"; sourceTree = "<group>"; };
+		2C08E52896B14FE3F2DDB6FB56B848FA /* ECMapNavigationAble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ECMapNavigationAble.framework; path = ECMapNavigationAble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4A786A9ED113966CCEC40B4E1E217A /* Pods-ECMapNavigationAble_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECMapNavigationAble_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AAE19D1023B4D9E98C224EB5CE04088 /* ECMapNavigationAble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECMapNavigationAble.xcconfig; sourceTree = "<group>"; };
+		408F43F0A38C93CC934FC67201E28889 /* JZLocationConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JZLocationConverter-dummy.m"; sourceTree = "<group>"; };
+		49D512F0F97D3EA8B9CA1510EC244447 /* JZLocationConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JZLocationConverter.framework; path = JZLocationConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8C92CA4B29BDE774F1F7A8798AC43A /* Pods-ECMapNavigationAble_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMapNavigationAble_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4BD8DAE3AF1971505F4BCFF6BA390679 /* Pods-ECMapNavigationAble_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECMapNavigationAble_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CA0E810CA0E3DDDDF14AFCD2558B280 /* Pods-ECMapNavigationAble_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMapNavigationAble_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4D74F6D7D6868B43ED25DD7DBEAFD5E7 /* Pods-ECMapNavigationAble_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECMapNavigationAble_Tests-dummy.m"; sourceTree = "<group>"; };
+		4F935F73A1B34B3299BD66B739B49627 /* ECMapNavigationAble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECMapNavigationAble-prefix.pch"; sourceTree = "<group>"; };
+		516F51AA8E49D9347FC5F57E73A61554 /* JZLocationConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JZLocationConverter.modulemap; sourceTree = "<group>"; };
+		58975D47B01681FBB1CEF6EAF26B93D2 /* Pods-ECMapNavigationAble_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECMapNavigationAble_Example-umbrella.h"; sourceTree = "<group>"; };
+		58BED5D0F4016192A4D58B00ABBCA82B /* Pods-ECMapNavigationAble_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECMapNavigationAble_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EEC22C8AA00D357D5ABCD9E10147873 /* ECMapNavigationAble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECMapNavigationAble-umbrella.h"; sourceTree = "<group>"; };
+		5F8318CE8F2972E6E657CAEE164EAD2A /* JZLocationConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZLocationConverter-umbrella.h"; sourceTree = "<group>"; };
+		60CFDC35456DA2C65E0068CC771F5464 /* Pods-ECMapNavigationAble_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMapNavigationAble_Example-frameworks.sh"; sourceTree = "<group>"; };
+		67538CA9EE175A80840226600C0610B3 /* Pods-ECMapNavigationAble_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMapNavigationAble_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6A645F0AFD4D7A422C2FC008FF813452 /* Pods-ECMapNavigationAble_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMapNavigationAble_Example-resources.sh"; sourceTree = "<group>"; };
+		6D418D427A6EA581802631F81F31B40D /* Pods-ECMapNavigationAble_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ECMapNavigationAble_Tests.modulemap"; sourceTree = "<group>"; };
+		6FE7AAC62B5FF43A1299B963EC10C616 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF2BE864D78B9B2CC7C2ED8F2038615 /* ECMapNavigationAble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ECMapNavigationAble.modulemap; sourceTree = "<group>"; };
+		74DA7E12A94E71FA2BFD105D2B3D6887 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		76EEF7705FC890FA1F8BF568D5A5EB73 /* JZLocationConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZLocationConverter-prefix.pch"; sourceTree = "<group>"; };
+		796624E204386F1E6FB42D1A45622984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A63BBD973AFDD52880FD96FE8C5961D /* Pods-ECMapNavigationAble_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ECMapNavigationAble_Example.modulemap"; sourceTree = "<group>"; };
+		9A99F2BCA112D239328B12F18BC5991F /* Pods_ECMapNavigationAble_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECMapNavigationAble_Tests.framework; path = "Pods-ECMapNavigationAble_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12ADE283AD57752BB294D86787659CA /* Pods-ECMapNavigationAble_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECMapNavigationAble_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A35851BB4F5E229B70E9B9A2D1D32263 /* JZLocationConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JZLocationConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5627FAE38535F63CEEAE6F4D925771C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB8786097E783CC82BC0F0CDE584456B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCC3873DC637F4BF0B0FE9E501EC1394 /* JZLocationConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JZLocationConverter.h; path = JZLocationConverter/JZLocationConverter.h; sourceTree = "<group>"; };
+		DEA67896DBC92A6E8AF3215A386A0BA7 /* JZLocationConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JZLocationConverter.m; path = JZLocationConverter/JZLocationConverter.m; sourceTree = "<group>"; };
+		DEC3C868CC804155A0E2B738CAB3CD9E /* Pods-ECMapNavigationAble_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMapNavigationAble_Tests-resources.sh"; sourceTree = "<group>"; };
+		E73834902FFBF0BE350F75F3F99A9D84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEF2942DA53313D7C062DF581CE259B /* Pods_ECMapNavigationAble_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECMapNavigationAble_Example.framework; path = "Pods-ECMapNavigationAble_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168867E56EA54DE3A8F97C8F5FBF74F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C56D0497CAE6B8DFA1C5DD12E1FC07 /* CoreLocation.framework in Frameworks */,
+				6376D687D42D8A226B932E0FF428D9A7 /* Foundation.framework in Frameworks */,
+				5E2C5FD47155A9C32EDABA0B4D5C160D /* JZLocationConverter.framework in Frameworks */,
+				39EF66AC564C00EDF0154747489851F6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DF9DA5250BAB1D6F426DD2C619EE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D6358CA03D103372312736F7E26421 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4BA9DED38A137401FF25AB2DDB56F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381EDAB1E471A797C133D5DCC0CED09C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD44AA16F15CCB938D95A03D556BF61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEAD85AABA782396CB4E00B0650BA51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA6547A39CD7CEF1737CF6C5E70D99B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73834902FFBF0BE350F75F3F99A9D84 /* Info.plist */,
+				516F51AA8E49D9347FC5F57E73A61554 /* JZLocationConverter.modulemap */,
+				13108EA485CE3F9A3195093797341D58 /* JZLocationConverter.xcconfig */,
+				408F43F0A38C93CC934FC67201E28889 /* JZLocationConverter-dummy.m */,
+				76EEF7705FC890FA1F8BF568D5A5EB73 /* JZLocationConverter-prefix.pch */,
+				5F8318CE8F2972E6E657CAEE164EAD2A /* JZLocationConverter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JZLocationConverter";
+			sourceTree = "<group>";
+		};
+		0E777D6AC908FA8B90DCB7D27EEDAE14 /* Pods-ECMapNavigationAble_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7AAC62B5FF43A1299B963EC10C616 /* Info.plist */,
+				6D418D427A6EA581802631F81F31B40D /* Pods-ECMapNavigationAble_Tests.modulemap */,
+				4BD8DAE3AF1971505F4BCFF6BA390679 /* Pods-ECMapNavigationAble_Tests-acknowledgements.markdown */,
+				2E4A786A9ED113966CCEC40B4E1E217A /* Pods-ECMapNavigationAble_Tests-acknowledgements.plist */,
+				4D74F6D7D6868B43ED25DD7DBEAFD5E7 /* Pods-ECMapNavigationAble_Tests-dummy.m */,
+				4CA0E810CA0E3DDDDF14AFCD2558B280 /* Pods-ECMapNavigationAble_Tests-frameworks.sh */,
+				DEC3C868CC804155A0E2B738CAB3CD9E /* Pods-ECMapNavigationAble_Tests-resources.sh */,
+				1BE49CDAE795D4148A380D474206AECA /* Pods-ECMapNavigationAble_Tests-umbrella.h */,
+				2885C365EAA31BBE013BCCEB2FEA632D /* Pods-ECMapNavigationAble_Tests.debug.xcconfig */,
+				4B8C92CA4B29BDE774F1F7A8798AC43A /* Pods-ECMapNavigationAble_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECMapNavigationAble_Tests";
+			path = "Target Support Files/Pods-ECMapNavigationAble_Tests";
+			sourceTree = "<group>";
+		};
+		1074785D252779F14C5ED321AAA121FF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				74DA7E12A94E71FA2BFD105D2B3D6887 /* CoreLocation.framework */,
+				BB8786097E783CC82BC0F0CDE584456B /* Foundation.framework */,
+				B5627FAE38535F63CEEAE6F4D925771C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		388905E59637944D3E42FB910826D2A9 /* JZLocationConverter */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3873DC637F4BF0B0FE9E501EC1394 /* JZLocationConverter.h */,
+				DEA67896DBC92A6E8AF3215A386A0BA7 /* JZLocationConverter.m */,
+				0DA6547A39CD7CEF1737CF6C5E70D99B /* Support Files */,
+			);
+			name = JZLocationConverter;
+			path = JZLocationConverter;
+			sourceTree = "<group>";
+		};
+		42F0A1680F6772FD3A29D5803C73A3DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6752B106CD6AFD3FCB1A98F705C19 /* Pods-ECMapNavigationAble_Example */,
+				0E777D6AC908FA8B90DCB7D27EEDAE14 /* Pods-ECMapNavigationAble_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CD05BE8FD5E31F954076CA8961C6802 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FF2BE864D78B9B2CC7C2ED8F2038615 /* ECMapNavigationAble.modulemap */,
+				3AAE19D1023B4D9E98C224EB5CE04088 /* ECMapNavigationAble.xcconfig */,
+				2A2935B3B65CF316E3BF1911CDB120C3 /* ECMapNavigationAble-dummy.m */,
+				4F935F73A1B34B3299BD66B739B49627 /* ECMapNavigationAble-prefix.pch */,
+				5EEC22C8AA00D357D5ABCD9E10147873 /* ECMapNavigationAble-umbrella.h */,
+				796624E204386F1E6FB42D1A45622984 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECMapNavigationAble";
+			sourceTree = "<group>";
+		};
+		66567CCB0BF8F1C2B2FC862C54B214B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1B7FB9F04FD6583F4AE86ED19B18B16 /* ECMapNavigationAble */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				66567CCB0BF8F1C2B2FC862C54B214B7 /* Development Pods */,
+				E50EE75A26CA770634DF76EE9BD47953 /* Frameworks */,
+				AD706EB83B637C4DB51B5BC3A10FB69D /* Pods */,
+				A9E3EFF29867A9DFAC627D54A438E98B /* Products */,
+				42F0A1680F6772FD3A29D5803C73A3DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87E7A266DFDCF062F7DFF1D5B871E692 /* ECMapNavigationAble */ = {
+			isa = PBXGroup;
+			children = (
+				B8BA3142803DC15D32FC563CDDAEF177 /* Classes */,
+			);
+			name = ECMapNavigationAble;
+			path = ECMapNavigationAble;
+			sourceTree = "<group>";
+		};
+		A1B7FB9F04FD6583F4AE86ED19B18B16 /* ECMapNavigationAble */ = {
+			isa = PBXGroup;
+			children = (
+				87E7A266DFDCF062F7DFF1D5B871E692 /* ECMapNavigationAble */,
+				5CD05BE8FD5E31F954076CA8961C6802 /* Support Files */,
+			);
+			name = ECMapNavigationAble;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9E3EFF29867A9DFAC627D54A438E98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C08E52896B14FE3F2DDB6FB56B848FA /* ECMapNavigationAble.framework */,
+				49D512F0F97D3EA8B9CA1510EC244447 /* JZLocationConverter.framework */,
+				FCEF2942DA53313D7C062DF581CE259B /* Pods_ECMapNavigationAble_Example.framework */,
+				9A99F2BCA112D239328B12F18BC5991F /* Pods_ECMapNavigationAble_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD706EB83B637C4DB51B5BC3A10FB69D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				388905E59637944D3E42FB910826D2A9 /* JZLocationConverter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8BA3142803DC15D32FC563CDDAEF177 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28F4420CB612BB8467F3F43DF13B7A68 /* ECMapNavigationAble.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E50EE75A26CA770634DF76EE9BD47953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35851BB4F5E229B70E9B9A2D1D32263 /* JZLocationConverter.framework */,
+				1074785D252779F14C5ED321AAA121FF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B6752B106CD6AFD3FCB1A98F705C19 /* Pods-ECMapNavigationAble_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0867CAFD9E581EFF93AEDFBA2180027B /* Info.plist */,
+				9A63BBD973AFDD52880FD96FE8C5961D /* Pods-ECMapNavigationAble_Example.modulemap */,
+				58BED5D0F4016192A4D58B00ABBCA82B /* Pods-ECMapNavigationAble_Example-acknowledgements.markdown */,
+				A12ADE283AD57752BB294D86787659CA /* Pods-ECMapNavigationAble_Example-acknowledgements.plist */,
+				2727AC52B2C394A4F457D4BF6C1B3DCB /* Pods-ECMapNavigationAble_Example-dummy.m */,
+				60CFDC35456DA2C65E0068CC771F5464 /* Pods-ECMapNavigationAble_Example-frameworks.sh */,
+				6A645F0AFD4D7A422C2FC008FF813452 /* Pods-ECMapNavigationAble_Example-resources.sh */,
+				58975D47B01681FBB1CEF6EAF26B93D2 /* Pods-ECMapNavigationAble_Example-umbrella.h */,
+				67538CA9EE175A80840226600C0610B3 /* Pods-ECMapNavigationAble_Example.debug.xcconfig */,
+				2663556A195D5A15975A6428894C2714 /* Pods-ECMapNavigationAble_Example.release.xcconfig */,
+			);
+			name = "Pods-ECMapNavigationAble_Example";
+			path = "Target Support Files/Pods-ECMapNavigationAble_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41BAEE988428E545CBBBBE9908746C9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998601BE1B8C69E3CDA6CDF3E56741A2 /* Pods-ECMapNavigationAble_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A108D47C43B0429E9770E07DC3C3FD97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29965916380593F22690F6466488550 /* JZLocationConverter-umbrella.h in Headers */,
+				BE4F64075AA808B83DB9BA13F26B137D /* JZLocationConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D217177C28C2B731171B968AF52CD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352475FC4A2E63D5E93800F6F7836AB3 /* ECMapNavigationAble-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83A80E6BA8C07817DEFF341015DD26D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67C528F5F14C065835D34CA386FC662 /* Pods-ECMapNavigationAble_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99EC798F8F621D1929058A6F0B327099 /* ECMapNavigationAble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17360AFA3CCE7A3FE7D64AE258B90705 /* Build configuration list for PBXNativeTarget "ECMapNavigationAble" */;
+			buildPhases = (
+				6DE3A31E10B34EAB433324312BDB44C0 /* Sources */,
+				168867E56EA54DE3A8F97C8F5FBF74F0 /* Frameworks */,
+				A6D217177C28C2B731171B968AF52CD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7C1A12B11F7BF41B68E90810EFD521 /* PBXTargetDependency */,
+			);
+			name = ECMapNavigationAble;
+			productName = ECMapNavigationAble;
+			productReference = 2C08E52896B14FE3F2DDB6FB56B848FA /* ECMapNavigationAble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E1BD8F3A661A150896A8274DF40930F /* Pods-ECMapNavigationAble_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276BB85F54FB2BAE16F5C72D46489655 /* Build configuration list for PBXNativeTarget "Pods-ECMapNavigationAble_Tests" */;
+			buildPhases = (
+				F9DEF359698972283FFE7EA0B40601A5 /* Sources */,
+				BD44AA16F15CCB938D95A03D556BF61B /* Frameworks */,
+				41BAEE988428E545CBBBBE9908746C9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ECMapNavigationAble_Tests";
+			productName = "Pods-ECMapNavigationAble_Tests";
+			productReference = 9A99F2BCA112D239328B12F18BC5991F /* Pods_ECMapNavigationAble_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9F8C29C1635280E7C2EBBEC3648F5BA /* Pods-ECMapNavigationAble_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080E22A8530648DDAAC630FED859E519 /* Build configuration list for PBXNativeTarget "Pods-ECMapNavigationAble_Example" */;
+			buildPhases = (
+				A169D41D6CC0973D651A6F63B655A74C /* Sources */,
+				9C4BA9DED38A137401FF25AB2DDB56F6 /* Frameworks */,
+				D83A80E6BA8C07817DEFF341015DD26D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2DD5EC843DE04360411DF44287CB4F7 /* PBXTargetDependency */,
+				E5A636A326D7772C74EA34F386415257 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECMapNavigationAble_Example";
+			productName = "Pods-ECMapNavigationAble_Example";
+			productReference = FCEF2942DA53313D7C062DF581CE259B /* Pods_ECMapNavigationAble_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E516E61D1B7FE78466FB43293C6F0D58 /* JZLocationConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6581F243B635719D9A11E5CC51D0EC93 /* Build configuration list for PBXNativeTarget "JZLocationConverter" */;
+			buildPhases = (
+				A1F3C10EA365A78C6A7F6C658E448596 /* Sources */,
+				23DF9DA5250BAB1D6F426DD2C619EE27 /* Frameworks */,
+				A108D47C43B0429E9770E07DC3C3FD97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZLocationConverter;
+			productName = JZLocationConverter;
+			productReference = 49D512F0F97D3EA8B9CA1510EC244447 /* JZLocationConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A9E3EFF29867A9DFAC627D54A438E98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EC798F8F621D1929058A6F0B327099 /* ECMapNavigationAble */,
+				E516E61D1B7FE78466FB43293C6F0D58 /* JZLocationConverter */,
+				C9F8C29C1635280E7C2EBBEC3648F5BA /* Pods-ECMapNavigationAble_Example */,
+				9E1BD8F3A661A150896A8274DF40930F /* Pods-ECMapNavigationAble_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DE3A31E10B34EAB433324312BDB44C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC46600596BECBBAB47B253D68A82A14 /* ECMapNavigationAble-dummy.m in Sources */,
+				9CF7D525B6D691199D34C8C1FC5A9456 /* ECMapNavigationAble.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A169D41D6CC0973D651A6F63B655A74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD594CAF16DC11A78C1AFA5C3E3A07F5 /* Pods-ECMapNavigationAble_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F3C10EA365A78C6A7F6C658E448596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F84104F724F55F0B694A8FB77DB299B /* JZLocationConverter-dummy.m in Sources */,
+				CF31FBAAC75218F639F350865C596119 /* JZLocationConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DEF359698972283FFE7EA0B40601A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D649A9A61015030256605D581D883319 /* Pods-ECMapNavigationAble_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E7C1A12B11F7BF41B68E90810EFD521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JZLocationConverter;
+			target = E516E61D1B7FE78466FB43293C6F0D58 /* JZLocationConverter */;
+			targetProxy = EC8519DF2AAFA8E73ED6F1D64D0B00C6 /* PBXContainerItemProxy */;
+		};
+		B2DD5EC843DE04360411DF44287CB4F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECMapNavigationAble;
+			target = 99EC798F8F621D1929058A6F0B327099 /* ECMapNavigationAble */;
+			targetProxy = D25ADE887A9304AB8E4CA053762185FD /* PBXContainerItemProxy */;
+		};
+		E5A636A326D7772C74EA34F386415257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JZLocationConverter;
+			target = E516E61D1B7FE78466FB43293C6F0D58 /* JZLocationConverter */;
+			targetProxy = EA20A7AE451D32400226A111CC80FDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		321695496AACCDC9B07DEC269E9B12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67538CA9EE175A80840226600C0610B3 /* Pods-ECMapNavigationAble_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMapNavigationAble_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMapNavigationAble_Example/Pods-ECMapNavigationAble_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECMapNavigationAble_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		39DC12EF35C6812383620746506AFDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2885C365EAA31BBE013BCCEB2FEA632D /* Pods-ECMapNavigationAble_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMapNavigationAble_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMapNavigationAble_Tests/Pods-ECMapNavigationAble_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECMapNavigationAble_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D0FF28D676BDF8B64A2A0D6ADD252D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13108EA485CE3F9A3195093797341D58 /* JZLocationConverter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JZLocationConverter/JZLocationConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JZLocationConverter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JZLocationConverter/JZLocationConverter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JZLocationConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F82042AD307DFB79164AE4D79978E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAE19D1023B4D9E98C224EB5CE04088 /* ECMapNavigationAble.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECMapNavigationAble/ECMapNavigationAble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECMapNavigationAble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECMapNavigationAble/ECMapNavigationAble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECMapNavigationAble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C767BB996B54046C3E2A6414F3B2843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8C92CA4B29BDE774F1F7A8798AC43A /* Pods-ECMapNavigationAble_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMapNavigationAble_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMapNavigationAble_Tests/Pods-ECMapNavigationAble_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECMapNavigationAble_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAFA657169A29DFC3336F74AB7FA64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2663556A195D5A15975A6428894C2714 /* Pods-ECMapNavigationAble_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMapNavigationAble_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMapNavigationAble_Example/Pods-ECMapNavigationAble_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECMapNavigationAble_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCF5A38BDBAFC32B6D1ED4ED57AB61DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13108EA485CE3F9A3195093797341D58 /* JZLocationConverter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JZLocationConverter/JZLocationConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JZLocationConverter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JZLocationConverter/JZLocationConverter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JZLocationConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC76DF2C55DC3EE99D07F3A9F0772227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAE19D1023B4D9E98C224EB5CE04088 /* ECMapNavigationAble.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECMapNavigationAble/ECMapNavigationAble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECMapNavigationAble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECMapNavigationAble/ECMapNavigationAble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECMapNavigationAble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080E22A8530648DDAAC630FED859E519 /* Build configuration list for PBXNativeTarget "Pods-ECMapNavigationAble_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321695496AACCDC9B07DEC269E9B12F3 /* Debug */,
+				CAFA657169A29DFC3336F74AB7FA64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17360AFA3CCE7A3FE7D64AE258B90705 /* Build configuration list for PBXNativeTarget "ECMapNavigationAble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F82042AD307DFB79164AE4D79978E54 /* Debug */,
+				DC76DF2C55DC3EE99D07F3A9F0772227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276BB85F54FB2BAE16F5C72D46489655 /* Build configuration list for PBXNativeTarget "Pods-ECMapNavigationAble_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DC12EF35C6812383620746506AFDD2 /* Debug */,
+				8C767BB996B54046C3E2A6414F3B2843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6581F243B635719D9A11E5CC51D0EC93 /* Build configuration list for PBXNativeTarget "JZLocationConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF5A38BDBAFC32B6D1ED4ED57AB61DA /* Debug */,
+				3D0FF28D676BDF8B64A2A0D6ADD252D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

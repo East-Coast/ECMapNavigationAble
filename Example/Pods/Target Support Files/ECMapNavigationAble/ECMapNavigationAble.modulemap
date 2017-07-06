@@ -1,0 +1,6 @@
+framework module ECMapNavigationAble {
+  umbrella header "ECMapNavigationAble-umbrella.h"
+
+  export *
+  module * { export * }
+}

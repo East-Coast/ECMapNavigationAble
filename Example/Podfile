@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'ECMapNavigationAble_Example' do
   pod 'ECMapNavigationAble', :path => '../'
+  
 
   target 'ECMapNavigationAble_Tests' do
     inherit! :search_paths
