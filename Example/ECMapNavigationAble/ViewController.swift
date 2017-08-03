@@ -27,6 +27,13 @@ class ViewController: UIViewController,ECMapNavigationAble {
   
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     
+    /**
+     * 调用第三方导航
+     * destination:  目的地坐标
+     * locationType: destination坐标的类型（ECLocationType）
+     * scheme: 用于返回APP
+     */
+    
     let destination = CLLocationCoordinate2D(latitude: 30.2853100000, longitude: 120.1001900000)
     showNavigationListAlert(destination: destination, locationType: .gcj02, scheme: "ecmapnavigation")
   }

@@ -28,12 +28,34 @@ class ViewController: UIViewController,ECMapNavigationAble {
         ...
   }
   
-  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     
-    //使用方法
+    /**
+     * 调用第三方导航
+     * destination:  目的地坐标
+     * locationType: destination坐标的类型（ECLocationType）
+     * scheme: 用于返回APP
+     */
+    
     let destination = CLLocationCoordinate2D(latitude: 30.2853100000, longitude: 120.1001900000)
     showNavigationListAlert(destination: destination, locationType: .gcj02, scheme: "ecmapnavigation")
   }
+
+```
+
+#### ECLocationType 坐标的类型
+```
+/**
+ * WGS-84  GPS原始坐标
+ * GCJ-02  火星坐标 适用于高德、腾讯,google中国地图
+ * BD-09   百度坐标
+ */
+
+public enum ECLocationType {
+  case wgs84
+  case gcj02
+  case bd09
+}
 
 ```
 
