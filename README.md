@@ -1,24 +1,22 @@
 # ECMapNavigationAble
 
-[![CI Status](http://img.shields.io/travis/East-Coast/ECMapNavigationAble.svg?style=flat)](https://travis-ci.org/East-Coast/ECMapNavigationAble)
-[![Version](https://img.shields.io/cocoapods/v/ECMapNavigationAble.svg?style=flat)](http://cocoapods.org/pods/ECMapNavigationAble)
-[![License](https://img.shields.io/cocoapods/l/ECMapNavigationAble.svg?style=flat)](http://cocoapods.org/pods/ECMapNavigationAble)
-[![Platform](https://img.shields.io/cocoapods/p/ECMapNavigationAble.svg?style=flat)](http://cocoapods.org/pods/ECMapNavigationAble)
+ECMapNavigationAble 是由swift编写，应用内跳转手机导航的库，依赖[JZLocationConverter](https://github.com/JackZhouCn/JZLocationConverter) 进行高德坐标、百度坐标、GPS坐标之间相互转换,支持Apple地图、高德地图、百度地图、Google地图、腾讯地图。
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-ECMapNavigationAble is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+# 安装
 
 ```ruby
 pod "ECMapNavigationAble"
+``` 
+
+# 使用案例
+
+
+``` swift
+let location = ECLocation(coordinate: CLLocationCoordinate2D(latitude: 30.2853100000, longitude: 120.1001900000), type: .gcj02)  
+let alert = mapNavigation(destination: location,scheme: "ecmapnavigation", app: "demo")  
+present(alert, animated: true, completion: nil)
 ```
+
 
 ## Author
 

@@ -8,9 +8,15 @@ import JZLocationConverter
 
 
 //导航坐标
-struct ECLocation {
-  var coordinate:CLLocationCoordinate2D
-  var type:ECLocationType
+public struct ECLocation {
+  public var coordinate:CLLocationCoordinate2D  //坐标
+  public var type:ECLocationType //类型
+  
+  public init(coordinate:CLLocationCoordinate2D,type:ECLocationType){
+    self.coordinate = coordinate
+    self.type = type
+  }
+  
 }
 
 
@@ -20,7 +26,7 @@ struct ECLocation {
  * BD-09   百度坐标
  */
 
-enum ECLocationType {
+public enum ECLocationType {
   case wgs84
   case gcj02
   case bd09
@@ -32,7 +38,7 @@ enum ECLocationType {
  * coordinateBD   百度坐标
  */
 
-protocol ECCoordinateType {
+public protocol ECCoordinateType {
   var wgs84Coordinate:CLLocationCoordinate2D {get}
   var gcj02Coordinate:CLLocationCoordinate2D {get}
   var bd09Coordinate:CLLocationCoordinate2D {get}
@@ -41,7 +47,7 @@ protocol ECCoordinateType {
 
 extension ECLocation: ECCoordinateType {
   
-  var wgs84Coordinate: CLLocationCoordinate2D{
+  public var wgs84Coordinate: CLLocationCoordinate2D{
     switch type {
     case .bd09:
       return JZLocationConverter.bd09(toWgs84: coordinate)
@@ -53,7 +59,7 @@ extension ECLocation: ECCoordinateType {
     }
   }
   
-  var gcj02Coordinate: CLLocationCoordinate2D{
+  public var gcj02Coordinate: CLLocationCoordinate2D{
     switch type {
     case .bd09:
       return JZLocationConverter.bd09(toGcj02: coordinate)
@@ -66,7 +72,7 @@ extension ECLocation: ECCoordinateType {
   }
   
   
-  var bd09Coordinate: CLLocationCoordinate2D{
+  public var bd09Coordinate: CLLocationCoordinate2D{
     switch type {
     case .bd09:
       return coordinate
@@ -81,21 +87,20 @@ extension ECLocation: ECCoordinateType {
   
 }
 
-struct ECMapResult {
+public struct ECMapResult {
   var name:String!
   var urlStr:String!
 }
 
 
-protocol ECMapNavigationAble {
+public protocol ECMapNavigationAble {
   
   /**
    * 调用第三方导航从当前位置出发
    * destination:  目的地坐标（GCJ-02）
    * scheme: 用于返回APP
    */
-  func mapNavigation(destination:ECLocation,scheme:String,app:String) -> UIAlertController
-  
+ func mapNavigation(destination:ECLocation,scheme:String,app:String) -> UIAlertController
   
   /**
    * 调用第三方导航
@@ -104,10 +109,28 @@ protocol ECMapNavigationAble {
    * scheme: 用于返回APP
    */
   //func mapNavigation(origin:ECLocation,destination:ECLocation,scheme:String)
+  
+}
+
+//拓展UIViewController
+public extension ECMapNavigationAble where Self:UIViewController {
+  /**
+   * 调用第三方导航
+   * destination:  目的地坐标（GCJ-02）
+   * scheme: 用于返回APP
+   */
+  func showNavigationListAlert(destination:CLLocationCoordinate2D,locationType:ECLocationType,scheme:String){
+    
+    let app = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String ?? "APP"
+    
+    let alert = mapNavigation(destination: ECLocation(coordinate:destination,type:locationType), scheme: scheme, app: app)
+    present(alert, animated: true, completion: nil)
+  }
 }
 
 
-extension ECMapNavigationAble {
+//默认实现
+public extension ECMapNavigationAble {
 
   func mapNavigation(destination:ECLocation,scheme:String,app:String) -> UIAlertController{
     

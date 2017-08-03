@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ECMapNavigationAble'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '调用第三方导航'
 
 
