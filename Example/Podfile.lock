@@ -1,5 +1,5 @@
 PODS:
-  - ECMapNavigationAble (0.1.0):
+  - ECMapNavigationAble (0.1.2):
     - JZLocationConverter
   - JZLocationConverter (1.0.0)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ECMapNavigationAble: f253ea5bdb167c92339e4026a761ebc3432391e5
+  ECMapNavigationAble: f43ce7ca1cbb5078a643744af69ed1feb8f8531d
   JZLocationConverter: 3d816bee6484aed9c155a6045a02ce444833e2f0
 
 PODFILE CHECKSUM: 11c7033cb39ae0cedb23b0c56cdc656cd3a071d6
