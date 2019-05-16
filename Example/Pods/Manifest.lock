@@ -6,9 +6,13 @@ PODS:
 DEPENDENCIES:
   - ECMapNavigationAble (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JZLocationConverter
+
 EXTERNAL SOURCES:
   ECMapNavigationAble:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   ECMapNavigationAble: f43ce7ca1cbb5078a643744af69ed1feb8f8531d
@@ -16,4 +20,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 11c7033cb39ae0cedb23b0c56cdc656cd3a071d6
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1
